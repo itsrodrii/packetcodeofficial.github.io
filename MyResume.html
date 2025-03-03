@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Doe - Resume</title>
+    <style type="text/css">
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: rgb(34, 86, 116);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 25px 0 rgb(255, 255, 255);
+      }
+      nav ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        list-style-type: none;
+        margin: 0 20px;
+      }
+      nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      nav a:hover {
+        color: #ddd;
+      }
+      .container {
+        max-width: 800px;
+        margin: 100px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      .contact {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="AboutMe.html">About Me</a></li>
+          <li><a href="MyResume.html">My Resume</a></li>
+          <li><a href="ContactMe.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container" id="home">
+      <h1>Rodrigue Quan</h1>
+      <p class="contact">📧 Email: rodri@uhsp.edu | 📞 Phone: 217-901-0000</p>
+
+      <div class="section" id="about">
+        <h2>Professional Summary</h2>
+        <p>
+          Experienced and skilled professional with a background in Web
+          Development. Proficient in HTML, CSS, JavaScript, and React.
+        </p>
+      </div>
+
+      <div class="section" id="experience">
+        <h2>Work Experience</h2>
+
+        <p>
+          <strong>Front-End Developer - LA-Technologies</strong><br />
+          March 2023 - Present
+        </p>
+        <ul>
+          <li>
+            Developed responsive web applications using HTML, CSS, JavaScript,
+            and React.
+          </li>
+          <li>
+            Improved website performance and user experience through optimized
+            coding practices.
+          </li>
+          <li>
+            Collaborated with designers and back-end developers to enhance web
+            functionality.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Web Developer - Tech Solutions Inc.</strong><br />
+          June 2022 - February 2023
+        </p>
+        <ul>
+          <li>
+            Designed and maintained company websites to improve user engagement.
+          </li>
+          <li>Implemented new UI features, reducing load times by 30%.</li>
+        </ul>
+      </div>
+
+      <div class="section" id="education">
+        <h2>Education</h2>
+        <p>
+          <strong
+            >Bachelor of Science in Computer Science - University of California,
+            Berkeley</strong
+          ><br />
+          August 2020 - May 2024
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
